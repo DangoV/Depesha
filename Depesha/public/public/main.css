@@ -1,0 +1,182 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+
+.clearfix {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(image/phon2.png) no-repeat center top;
+			color: #ffffff;  
+	padding-bottom: 285px;
+	background-size: 100%;
+	image-rendering: pixelated;
+}
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.logo {
+    margin-top: 41px;
+    margin-left: 18px;
+    float: left;
+}
+
+nav {
+	float: center;
+	margin-top: 45px;
+	margin-left: 360px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 50px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: none;
+	font-size: 17px;
+}
+
+.menu_button {
+	color: #ffffff;
+}
+
+.menu_button:hover {
+	color: #3CF4DE;
+	transition: all 0.5s ease;
+}
+
+.inst {
+	display:inline-block;
+	vertical-align:bottom;
+	width:24px;
+	height:24px;
+	margin:0 15px 0px 0;
+	padding:0;outline:none;
+	background:url(image/inst.png) -0px 0 no-repeat;
+}
+
+.telegram {
+	display:inline-block;
+	vertical-align:bottom;
+	width:24px;
+	height:24px;
+	margin:0 15px 0px 0;
+	padding:0;outline:none;
+	background:url(image/telegram.png) -0px 0 no-repeat;
+}
+
+.twit {
+	display:inline-block;
+	vertical-align:bottom;
+	width:24px;
+	height:24px;
+	margin:0 15px 0px 0;
+	padding:0;outline:none;
+	background:url(image/twitter.png) -0px 0 no-repeat;
+}
+
+.fb {
+	display:inline-block;
+	vertical-align:bottom;
+	width:24px;
+	height:24px;
+	margin:0 15px 0px 0;
+	padding:0;outline:none;
+	background:url(image/facebook.png) -0px 0 no-repeat;
+}
+
+.yt {
+	display:inline-block;
+	vertical-align:bottom;
+	width:30px;
+	height:30px;
+	margin:0 15px 0px 0;
+	padding:0;outline:none;
+	background:url(image/youtube.png) -0px 0 no-repeat;
+}
+
+.networks {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.networks li {
+	float: right;
+	display: block;
+	margin-right: 1px;
+	margin-right: 0px;
+}
+
+.networks a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: none;
+	font-size: 13px;
+}
+
+.logo2 {
+	margin-top: 200px;
+    margin-left: 450px;
+    float: center;
+}
+
+h1 {
+	font-size: 50px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-right: 35px;
+}
+
+.text2 {
+	color: #3CF4DE; 
+}
+
+.button {
+	background: #ffffff;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+	margin-right: 461px;
+}
+
+.button:hover {
+	background: #3CF4DE;
+	color: #000000;
+	transition: all 0.5s ease;
+}
+
